@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
 }
-
 /* cabezera */
 .bg-fondo{
     background: url("../img/fondo.jpg");
@@ -28,7 +27,7 @@
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
     position: relative;
-    height: 100px;
+
 }
 .slidein p{
     margin-top: 50px;
@@ -78,7 +77,7 @@
     background: white;
 }
 .container_2{
-    width: 80%;
+    width: 90%;
     height: auto;
     text-align: center;
     margin: 5%;
