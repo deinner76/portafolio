@@ -283,12 +283,11 @@ footer .creado-por {
   }
 }
 .centrado{
-  background-color: black;
+  background-color: teal;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 0.5;
 }
 .espere{
   margin-top: -150px;
