@@ -29,42 +29,6 @@
     position: relative;
 
 }
-.slidein p{
-    margin-top: 50px;
-}
-
-@-moz-keyframes slidein {
-    from {
-        margin-left: 100%;
-        width: 300%
-    }
-    to {
-        margin-left: 0%;
-        width: 100%;
-    }
-}
-
-@-webkit-keyframes slidein {
-    from {
-        margin-left: 100%;
-        width: 300%
-    }
-    to {
-        margin-left: 0%;
-        width: 100%;
-    }
-}
-
-@keyframes slidein {
-    from {
-        margin-left: 100%;
-        width: 300%
-    }
-    to {
-        margin-left: 0%;
-        width: 100%;
-    }
-}*/
 /* containers */
 
 .title-title{
@@ -231,42 +195,6 @@ footer .creado-por {
  .card{
    background: rgba(0,0,0,0.5);
  }
-
- /* carga */
-
- #contenedor_carga{
-  background-color: rgba(250, 240, 245, 0.9);
-  height: 100%;
-  width: 100%;
-  position: fixed;
-  -webkit-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  transition: all 1s ease;
-  z-index: 10000;
-}
-#carga{
-  border: 15px solid #ccc;
-  border-top-color: #f4566a;
-  border-top-style: groove;
-  height: 100px;
-  width: 100px;
-  border-radius: 100%;
-
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  -webkit-animation: girar 1.5s linear infinite;
-   -o-animation: girar 1.5s linear infinite;
-   animation: girar 1.5s linear infinite;
-}
-@keyframes girar{
-  font {transform: rotate(0deg);}
-  to {transform: rotate(360deg);}
-}
-
 /*PRELOADER*/
 
 .lds-roller {
@@ -278,6 +206,7 @@ footer .creado-por {
 .lds-roller div {
   animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
   transform-origin: 40px 40px;
+  margin-left: -250px;
 }
 .lds-roller div:after {
   content: " ";
@@ -354,11 +283,15 @@ footer .creado-por {
   }
 }
 .centrado{
-  background-color: teal;
+  background-color: black;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  opacity: 0.5;
+}
+.espere{
+  margin-top: -150px;
 }
 .hidden{
   overflow: hidden;
